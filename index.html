@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sherbaj Ahmed - MERN Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-code"></i> Sherbaj Ahmed
+            </div>
+            <nav class="navbar">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <!-- Particle Background Layer -->
+            <div class="particles" id="particles"></div>
+
+            <div class="container">
+                <div class="hero-content reveal">
+                    <h1>
+                        <span class="hello">Hello.</span> <br>
+                        I'm <span>Sherbaj Ahmed</span>.
+                    </h1>
+
+                    <!-- Typing animation title -->
+                    <h2 class="typing-title">
+                        <span class="typing-text">MERN Stack Developer</span>
+                        <span class="typing-cursor"></span>
+                    </h2>
+
+                    <p>Crafting robust, scalable web applications with MongoDB, Express.js, React, and Node.js.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/sherbaj-ahmed-16ab6a19a/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/sa.shikhon" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://github.com/Shikhon00" target="_blank" aria-label="GitHub"><i class="fab fa-github-square"></i></a>
+                    </div>
+                    <a href="#projects" class="btn">Explore Projects</a>
+                </div>
+
+                <div class="hero-image reveal delay-2">
+                    <img src="./2.png" alt="Sherbaj Ahmed" class="profile-pic">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <h2 class="reveal">About Me</h2>
+                <div class="about-content reveal">
+                    <p>I am a passionate MERN Stack Developer with a strong focus on building dynamic and user-friendly web applications. My journey into web development began with a fascination for how technology can solve real-world problems and create engaging digital experiences. I thrive on learning new technologies and constantly refining my craft.</p>
+                    <p>With expertise in front-end technologies like React.js and back-end powerhouses like Node.js and Express.js, coupled with NoSQL databases like MongoDB, I enjoy bringing full-stack solutions to life. I believe in writing clean, efficient, and maintainable code, and I am always looking for opportunities to contribute to innovative projects.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <h2 class="reveal">My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card reveal">
+                        <i class="fab fa-react"></i>
+                        <h3>React.js</h3>
+                    </div>
+                    <div class="skill-card reveal delay-1">
+                        <i class="fab fa-node-js"></i>
+                        <h3>Node.js</h3>
+                    </div>
+                    <div class="skill-card reveal delay-2">
+                        <i class="fab fa-js-square"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skill-card reveal delay-3">
+                        <i class="fas fa-database"></i>
+                        <h3>MongoDB</h3>
+                    </div>
+                    <div class="skill-card reveal">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML5</h3>
+                    </div>
+                    <div class="skill-card reveal delay-1">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS3</h3>
+                    </div>
+                    <div class="skill-card reveal delay-2">
+                        <i class="fab fa-git-alt"></i>
+                        <h3>Git & GitHub</h3>
+                    </div>
+                    <div class="skill-card reveal delay-3">
+                        <i class="fas fa-server"></i>
+                        <h3>Express.js</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <h2 class="reveal">My Projects</h2>
+
+                <!-- Projects Carousel -->
+                <div class="projects-carousel reveal">
+                    <button class="projects-nav prev" aria-label="Previous project">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+
+                    <div class="projects-track">
+                        <div class="project-card">
+                            <h3>Project One</h3>
+                            <p>A brief description of Project One, highlighting technologies used and its purpose.</p>
+                            <a href="#" target="_blank" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="project-card">
+                            <h3>Project Two</h3>
+                            <p>A brief description of Project Two, highlighting technologies used and its purpose.</p>
+                            <a href="#" target="_blank" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="project-card">
+                            <h3>Project Three</h3>
+                            <p>A brief description of Project Three, highlighting technologies used and its purpose.</p>
+                            <a href="#" target="_blank" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+
+                    <button class="projects-nav next" aria-label="Next project">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+
+                <!-- Dots under projects -->
+                <div class="projects-dots" aria-label="Project navigation"></div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <h2 class="reveal">Get In Touch</h2>
+                <p class="reveal">Have a project in mind or just want to chat? Feel free to reach out!</p>
+                <form class="contact-form reveal">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Sherbaj Ahmed. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
